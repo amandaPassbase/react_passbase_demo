@@ -19,7 +19,7 @@ function App() {
       </p>
 
       <VerifyButton
-        apiKey={"YOUR PUBLIC API KEY"}
+        apiKey={"YOUR_OWN_PUBLISHABLE_API_KEY"}
         onFinish={(identityAccessKey) => {
           console.log(identityAccessKey)
           console.log("passbase finished")
